@@ -344,6 +344,7 @@ endif(WITH_AHP_GT)
 #toupbase dependencies
 if (WITH_TOUPBASE)
 add_subdirectory(libtoupcam)
+add_subdirectory(libmeadecam)
 add_subdirectory(libaltaircam)
 add_subdirectory(libbressercam)
 add_subdirectory(libogmacam)
